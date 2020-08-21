@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS users (
   last_sign_in_at timestamp(0) NULL DEFAULT NULL,
   raw_app_meta_data text DEFAULT NULL,
   raw_user_meta_data text DEFAULT NULL,
-  is_super_admin smallint DEFAULT NULL,
+  is_super_admin boolean DEFAULT NULL,
   created_at timestamp(0) NULL DEFAULT NULL,
   updated_at timestamp(0) NULL DEFAULT NULL
 );

@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS refresh_tokens (
   id bigint PRIMARY KEY NOT NULL DEFAULT NEXTVAL ('refresh_tokens_seq'),
   token varchar(255) DEFAULT NULL,
   user_id varchar(255) DEFAULT NULL,
-  revoked smallint DEFAULT NULL,
+  revoked boolean DEFAULT NULL,
   created_at timestamp(0) NULL DEFAULT NULL
 ) ;
 

@@ -64,7 +64,7 @@ CREATE TABLE refresh_tokens (
   id bigint NOT NULL DEFAULT NEXTVAL ('refresh_tokens_seq'),
   token varchar(255) DEFAULT NULL,
   user_id varchar(255) DEFAULT NULL,
-  revoked smallint DEFAULT NULL,
+  revoked boolean DEFAULT NULL,
   created_at timestamp(0) NULL DEFAULT NULL,
   updated_at timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (id)
@@ -114,7 +114,7 @@ CREATE TABLE users (
   last_sign_in_at timestamp(0) NULL DEFAULT NULL,
   raw_app_meta_data json DEFAULT NULL,
   raw_user_meta_data json DEFAULT NULL,
-  is_super_admin smallint DEFAULT NULL,
+  is_super_admin boolean DEFAULT NULL,
   created_at timestamp(0) NULL DEFAULT NULL,
   updated_at timestamp(0) NULL DEFAULT NULL,
   PRIMARY KEY (id)
