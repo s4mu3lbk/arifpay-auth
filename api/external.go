@@ -11,9 +11,9 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gobuffalo/uuid"
-	"github.com/netlify/gotrue/api/provider"
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/s4mu3lbk/arifpay-auth/api/provider"
+	"github.com/s4mu3lbk/arifpay-auth/models"
+	"github.com/s4mu3lbk/arifpay-auth/storage"
 	"github.com/sirupsen/logrus"
 )
 

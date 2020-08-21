@@ -1,6 +1,6 @@
 package mailer
 
-import "github.com/netlify/gotrue/models"
+import "github.com/s4mu3lbk/arifpay-auth/models"
 
 type noopMailer struct {
 }

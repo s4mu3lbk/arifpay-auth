@@ -3,9 +3,9 @@ package models
 import (
 	"testing"
 
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/storage"
-	"github.com/netlify/gotrue/storage/test"
+	"github.com/s4mu3lbk/arifpay-auth/conf"
+	"github.com/s4mu3lbk/arifpay-auth/storage"
+	"github.com/s4mu3lbk/arifpay-auth/storage/test"
 	"github.com/gobuffalo/uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

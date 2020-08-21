@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/netlify/gotrue/cmd"
+	"github.com/s4mu3lbk/arifpay-auth/cmd"
 )
 
 func main() {

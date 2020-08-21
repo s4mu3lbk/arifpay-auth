@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gobuffalo/uuid"
-	"github.com/netlify/gotrue/storage"
-	"github.com/netlify/gotrue/storage/namespace"
+	"github.com/s4mu3lbk/arifpay-auth/storage"
+	"github.com/s4mu3lbk/arifpay-auth/storage/namespace"
 	"github.com/pkg/errors"
 )
 

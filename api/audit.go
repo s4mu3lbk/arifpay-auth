@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/netlify/gotrue/models"
+	"github.com/s4mu3lbk/arifpay-auth/models"
 )
 
 var filterColumnMap = map[string][]string{

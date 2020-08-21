@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/s4mu3lbk/arifpay-auth/models"
+	"github.com/s4mu3lbk/arifpay-auth/storage"
 )
 
 // SignupParams are the parameters the Signup endpoint accepts

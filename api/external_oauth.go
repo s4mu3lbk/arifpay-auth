@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/netlify/gotrue/api/provider"
+	"github.com/s4mu3lbk/arifpay-auth/api/provider"
 	"github.com/sirupsen/logrus"
 )
 

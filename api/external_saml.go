@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/netlify/gotrue/api/provider"
+	"github.com/s4mu3lbk/arifpay-auth/api/provider"
 )
 
 func (a *API) loadSAMLState(w http.ResponseWriter, r *http.Request) (context.Context, error) {

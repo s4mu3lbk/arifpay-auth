@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/beevik/etree"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
+	"github.com/s4mu3lbk/arifpay-auth/conf"
+	"github.com/s4mu3lbk/arifpay-auth/models"
 	"github.com/russellhaering/gosaml2/types"
 	dsig "github.com/russellhaering/goxmldsig"
 	"github.com/gobuffalo/uuid"

@@ -10,8 +10,8 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
+	"github.com/s4mu3lbk/arifpay-auth/conf"
+	"github.com/s4mu3lbk/arifpay-auth/models"
 	"github.com/gobuffalo/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

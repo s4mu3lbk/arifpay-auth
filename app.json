@@ -2,7 +2,7 @@
   "name": "Gotrue",
   "description": "",
   "website": "https://www.gotrueapi.org",
-  "repository": "https://github.com/netlify/gotrue",
+  "repository": "https://github.com/s4mu3lbk/arifpay-auth",
   "env": {
     "DATABASE_URL": {},
     "GOTRUE_DB_DRIVER": {

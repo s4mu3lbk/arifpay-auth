@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/s4mu3lbk/arifpay-auth/models"
+	"github.com/s4mu3lbk/arifpay-auth/storage"
 )
 
 // RecoverParams holds the parameters for a password recovery request

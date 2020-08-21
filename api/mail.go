@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/netlify/gotrue/crypto"
-	"github.com/netlify/gotrue/mailer"
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/s4mu3lbk/arifpay-auth/crypto"
+	"github.com/s4mu3lbk/arifpay-auth/mailer"
+	"github.com/s4mu3lbk/arifpay-auth/models"
+	"github.com/s4mu3lbk/arifpay-auth/storage"
 	"github.com/pkg/errors"
 )
 
